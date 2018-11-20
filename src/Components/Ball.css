@@ -1,0 +1,118 @@
+
+
+.main-section{
+    height: 100vh;
+    width: 100%;
+    background-color: #a1a1a1;
+    margin: auto;
+    padding-top: 20px;
+}
+
+button{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}
+
+
+button:hover{
+    color: blue;
+}
+
+#title{
+    font-size: 35px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    background-color: white;
+}
+
+.mainBall{
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 50%;
+    background-Color: #252525;
+    margin: auto;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom right, black, rgb(46, 46, 46), #3b3b3b);
+  }
+
+@keyframes shake {
+      0% {transform: translate(1px, 1px) rotate(0deg);}
+      10% {transform: translate(-1px, -2px) rotate(-1deg);}
+      20% {transform: translate(-3px, 0px) rotate(1deg);}
+      30% {transform: translate(3px, 2px) rotate(0deg);}
+      40% {transform: translate(1px, -1px) rotate(1deg);}
+      50% {transform: translate(-1px, 2px) rotate(-1deg);}
+      60% {transform: translate(-3px, 1px) rotate(0deg);}
+      70% {transform: translate(3px, 1px) rotate(-1deg);}
+      80% {transform: translate(-1px, -1px) rotate(1deg);}
+      90% {transform: translate(1px, 2px) rotate(0deg);}
+      100% {transform: translate(1px, -2px) rotate(-1deg);}
+  }
+  
+  .innerCircle{
+    height: 185px;
+    width: 185px;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 75px;
+    background-color: black;
+  }
+  
+  .borderCircle{
+    height: 170px;
+    width: 170px;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 7px;
+  }
+  
+  section{
+    margin: 10px 400px;
+  }
+  
+  .arrow-down{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    
+    border-top: 95px solid blue;
+    margin: auto;
+    margin-top: 55px
+  }
+  
+  .messageBox{
+    
+    width: 115px;
+    height: 90px;
+    
+  /*   border: 1px solid white; */
+    margin: 0px 100px 400px 0px;
+    position: relative;
+    bottom: 95px;
+    right: 58px;
+  }
+  
+  .message{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    /* border: 1px solid white; */
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    padding-top: 5px;
+   font-size: 13px;
+  }
+  
+  
